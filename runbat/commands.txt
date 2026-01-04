@@ -1,0 +1,13 @@
+echo "Building..."
+
+## Instance A
+bash -c 'i=0; while true; do echo 1:$i; sleep 1; ((i++)); done'
+
+## Instance B
+bash -c 'i=1; while true; do echo 1:$i; sleep 1; ((i++)); done'
+
+## Instance C
+bash -c 'i=2; while true; do echo 1:$i; sleep 1; ((i++)); done'
+
+## Instance D
+bash -c 'i=3; while true; do echo 1:$i; sleep 1; ((i++)); done'
